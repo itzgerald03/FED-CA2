@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* Apply the 'Space Mono' font to all elements */
+* {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Style for an image container */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Style for the element with the ID 'typed-text' */
+#typed-text {
+  position: absolute;
+  bottom: 30%; /* Adjust the distance from the bottom */
+  left: 40%; /* Position the text in the center */
+  transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+  background-color: transparent; /* Transparent background */
+  color: #fff; /* Font color (white in this case) */
+  font-weight: bold; /* Set font weight if desired */
+}
+
+/* Custom CSS for dark mode indicators within a carousel */
+.carousel .carousel-indicators li {
+  background-color: grey;
+}
+
+/* Style for the active (current) indicator */
+.carousel-indicators .active {
+  background-color: black;
+}
+
+/* Hover style for carousel indicators */
+.carousel-indicators :hover {
+  background-color: black;
+}
+
+/* Position the carousel indicators at the bottom with a negative value for bottom property */
+.carousel-indicators {
+  bottom: -50px;
+}
+
+/* Apply a smooth transition to all elements with class 'transition' */
+.transition {
+  transition: all 1s ease;
+}
